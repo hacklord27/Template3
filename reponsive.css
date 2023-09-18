@@ -1,0 +1,248 @@
+@media screen and (max-width: 768px){
+    /* CSS Header */
+
+    .cook_container .cook_header ul li:nth-child(2),
+    .cook_container .cook_header ul li:nth-child(3),
+    .cook_container .cook_header ul li:nth-child(4),
+    .cook_container .cook_header ul li:nth-child(5),
+    .cook_container .cook_header ul li:nth-child(6),
+    .cook_container .cook_header .cook_header-button{
+        display: none;
+    }
+
+    .cook_container .cook_header .cook_header-bar{
+        display: block;
+        
+        
+                         
+}
+.cook_container .cook_header .cook_header-bar i{
+width: 25px;
+padding: 5px 5px 9px;
+height: 25px;
+border-radius: 50%;
+}   
+
+/* CSS Introduce */
+
+.cook_introduce .cook_introduce-text {
+    padding: 0;
+}
+
+.cook_introduce .cook_introduce-text p {
+    font-size: 16px;
+  
+}
+
+.cook_introduce .cook_introduce-recipes {
+    margin-top: 40px;
+}
+
+.cook_introduce .cook_introduce-recipes button{
+    margin-left: 80px;
+    
+}
+
+.cook_introduce .cook_introduce-img img{
+    display: none;
+ }
+ .cook_introduce .cook_introduce-img  :nth-child(2){
+     display: block;
+ }
+
+ /* CSS Mental */
+
+ .mental .mental_desc{
+flex-direction: column;
+align-items: center;
+
+ }
+ .mental .mental_desc .mental_desc-tittleContent{
+    width: 100%;
+    text-align: center;
+ }
+.mental .mental_desc .mental_desc-tittleContent h3{
+      margin-bottom: 30px;
+        width: 100%;    
+}
+
+.mental .mental_desc .mental_desc-tittleContent p{
+    margin-bottom: 30px;
+width: 100%;
+}
+
+.mental .mental_desc .mental_desc-listContent ul {
+   width: 100%;
+   
+   
+
+}
+/* CSS TestimonialCard */
+.cook_testimonialCard :nth-child(3){
+    display: none;
+    
+}
+.cook_testimonialCard .cook_testimonialCard-item{
+    width: 49%;
+}
+/* CSS CTA */
+.cook_cta .cook_cta-content h2{
+    font-size: 34px;
+   
+   }
+.cook_cta .cook_cta-content  {
+    padding: 192px 100px;
+    
+}
+.cook_cta .cook_cta-content h2  {
+    font-size: 34px;
+    
+}
+
+/* CSS Footer */
+
+.cook_footer{
+    padding:40px 22px;
+}
+
+.cook_footer .cook_footer-column .cook_footer-sub p{
+    width: 100%;
+}
+    
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 420px){
+    /* CSS Header */
+    .cook_container .cook_header ul li:nth-child(1){
+        font-size: 20px;
+    }
+/* CSS Introduce */
+    .cook_introduce .cook_introduce-text {
+      
+    }
+
+    .cook_introduce .cook_introduce-text h2{
+     font-size: 40px;
+     margin-bottom: 24px;
+    
+    }
+
+    .cook_introduce .cook_introduce-text p{
+        margin-bottom: 21px;
+    }
+
+    .cook_introduce .cook_introduce-recipes{
+        align-items: center;
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 47px;
+    }
+
+    .cook_introduce .cook_introduce-recipes button{
+       margin-left: 0;
+        
+    }
+
+    .cook_introduce .cook_introduce-recipes p {
+        margin-left: 0;
+        text-align: center;
+        margin-top: 24px;
+        font-weight: 600;
+
+        
+    }
+
+    /* CSS TestimonialCard */
+    .cook_testimonialCard{
+        padding: 30px 24px;
+    }
+    .cook_testimonialCard :nth-child(3){
+        display: none;
+        
+    }
+    .cook_testimonialCard .cook_testimonialCard-item:nth-child(2){
+        display: none;
+    }
+
+ 
+  
+    .cook_testimonialCard .cook_testimonialCard-item{
+        width: 100%;
+        
+    }
+/* CSS CTA */
+
+.cook_cta .cook_cta-content  {
+    padding: 192px 0px;
+    
+}
+.cook_cta .cook_cta-content h2  {
+    font-size: 24px;
+    width: 100%;
+    
+    
+}
+/* CSS Footer */
+.cook_footer{
+    padding: 50px 30px;
+}
+.cook_footer h2{
+    text-align: center;
+}
+.cook_footer .cook_footer-logo{
+
+    text-align: center;
+   
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.cook_footer .cook_footer-logo p{
+    
+    color: #FFF;
+font-family: Inter;
+font-size: 8.218px;
+font-style: normal;
+font-weight: 900;
+line-height: 8.805px; /* 107.143% */
+letter-spacing: -0.147px;
+text-transform: uppercase;}
+
+
+
+
+
+.cook_footer .cook_footer-column .cook_footer-column1 {
+    width: 30%;
+    text-align: center;
+}
+
+.cook_footer .cook_footer-column {
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.cook_footer .cook_footer-column .cook_footer-sub h3 {
+    margin-bottom: 24px;
+}
+
+
+        
+}
+
+        
+    
+        
+
+
+
+
+
+    
